@@ -8,7 +8,6 @@ import java.util.Scanner;
  * @version 1.0
  */
 public class Main {
-
     /**
      * Main method - this is where Java starts executing
      */
