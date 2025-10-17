@@ -53,14 +53,23 @@ public class FileManager {
      * appends it to the end of the file
      */
     public static void writeTransaction(Transaction transaction) {
-        // creates backup before modifying file
+        // Create backup before modifying file
         createBackup();
+
         try (BufferedWriter writer = new BufferedWriter(
-                // true = append mode
-                new FileWriter(FILE_NAME, true))) {
+                new FileWriter(FILE_NAME, true))) { // true = append mode
+
+            // Check if file needs a newline before appending
+            File file = new File(FILE_NAME);
+            if (file.length() > 0) {
+                // File has content - add newline first, then our data
+                writer.newLine();
+            }
+
             writer.write(transaction.toCSVFormat());
-            writer.newLine();
+
             System.out.println("Transaction saved successfully!");
+
         } catch (IOException e) {
             System.out.println("Error writing to file: " + e.getMessage());
         }
