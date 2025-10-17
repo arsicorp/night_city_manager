@@ -180,31 +180,38 @@ This implementation demonstrates understanding of:
 ### >> APPLICATION SCREENSHOTS
 
 #### ▸ WELCOME SCREEN
-![Welcome Screen](screenshots/welcome-screen.png)  
+<img src="screenshots/welcome-screen.png" width="450" alt="Welcome Screen">  
+
 *ASCII art introduction with Cyberpunk theming*
 
 #### ▸ MAIN MENU
-![Home Menu](screenshots/home-menu.png)  
+<img src="screenshots/home-menu.png" width="450" alt="Home Menu">  
+
 *Primary navigation interface*
 
 #### ▸ TRANSACTION LEDGER
-![Ledger View](screenshots/ledger-all.png)  
+<img src="screenshots/ledger-all.png" width="450" alt="Ledger View">  
+
 *Complete transaction history with color coding and statistics*
 
 #### ▸ FILTERED VIEW: DEPOSITS
-![Deposits](screenshots/deposits-only.png)  
+<img src="screenshots/deposits-only.png" width="450" alt="Deposits">  
+
 *Income transactions with running totals*
 
 #### ▸ REPORTS INTERFACE
-![Reports Menu](screenshots/reports-menu.png)  
+<img src="screenshots/reports-menu.png" width="450" alt="Reports Menu">  
+
 *Time-based filtering and search options*
 
 #### ▸ CUSTOM SEARCH
-![Custom Search](screenshots/custom-search.png)  
+<img src="screenshots/custom-search.png" width="450" alt="Custom Search">  
+
 *Multi-criteria filtering with optional parameters*
 
 #### ▸ STATISTICS MODULE
-![Statistics](screenshots/statistics.png)  
+<img src="screenshots/statistics.png" width="450" alt="Statistics">  
+
 *Real-time balance calculation and transaction summaries*
 
 ---
