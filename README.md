@@ -17,8 +17,8 @@
 ```
 
 **>> FINANCIAL TRACKING SYSTEM v1.0**  
-**>> Cyberpunk 2077-Inspired CLI Application**  
-**>> Year Up Java Development Capstone Project**
+**>> Cyberpunk Inspired CLI Application**  
+**>> Java Development Capstone Project**
 
 
 ---
@@ -43,7 +43,7 @@
 
 ## ┃ [01] PROJECT OVERVIEW
 
-**Night City Manager** is a command-line financial ledger application designed to track deposits and payments with a Cyberpunk 2077 aesthetic. Built using core Java principles, this application demonstrates object-oriented programming, file I/O operations, data validation, and advanced filtering capabilities.
+**Night City Manager** is a command-line financial ledger application designed to track deposits and payments with a Cyberpunk aesthetic. Built using core Java principles, this application demonstrates object-oriented programming, file I/O operations, data validation, and advanced filtering capabilities.
 
 ### >> MISSION OBJECTIVES
 
@@ -544,22 +544,21 @@ Some of these might be too complicated for me right now, but maybe in a few mont
 
 ## ┃ [11] DEVELOPER PROFILE
 
-**[Your Name]**  
-Year Up United — Java Development Track  
+**[Arslan]**   
 Capstone Project — Java Fundamentals  
-Presentation Date: [Date]
+Presentation Date: [10/17/2025]
 
 ### >> CONNECT
 
+- **LinkedIn:** [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/arslan-durdykov-920318335)
 - **GitHub:** [@arsicorp](https://github.com/arsicorp)
-- **LinkedIn:** [Your LinkedIn Profile]
-- **Email:** your.email@example.com
+- **Email:** blank for now
 
 ---
 
 ## ┃ ACKNOWLEDGMENTS
 
-**Year Up Instructors** — For teaching Java fundamentals and providing project guidance  
+**Instructors** — For teaching Java fundamentals and providing project guidance  
 **Cyberpunk 2077 / CD Projekt Red** — For the inspiration and aesthetic that influenced this project's theme  
 **Open Source Community** — For documentation and resources that aided development
 
@@ -567,7 +566,7 @@ Presentation Date: [Date]
 
 ## ┃ LICENSE
 
-This project was created as an educational assignment for Year Up's Java Development program. Code may be used for learning purposes.
+This project was created as an educational assignment for Java Development program. Code may be used for learning purposes.
 
 ---
 
