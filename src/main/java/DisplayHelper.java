@@ -118,11 +118,14 @@ public class DisplayHelper {
         System.out.println(YELLOW + "  Total transactions: " + transactions.size() + RESET);
     }
 
-    // displays transaction statistics
+    /**
+     * Displays transaction statistics
+     */
     public static void displayStatistics(List<Transaction> transactions) {
         if (transactions.isEmpty()) {
             return;
         }
+
         double totalDeposits = 0;
         double totalPayments = 0;
         int depositCount = 0;
@@ -137,23 +140,23 @@ public class DisplayHelper {
                 paymentCount++;
             }
         }
+
         double balance = totalDeposits - totalPayments;
         String balanceColor = balance >= 0 ? GREEN : RED;
 
         System.out.println("\n" + CYAN + "  ╔═══════════════════════════════════════════════════════╗" + RESET);
-        System.out.println(CYAN + "  ║                   STATISTICS                          ║" + RESET);
-        System.out.println(CYAN + "  ║                                                       ║" + RESET);
-        System.out.println(CYAN + "  ║  " + RESET + GREEN + "Total Deposits:  " + String.format("$%,15.2f", totalDeposits) + CYAN + "                 ║" + RESET);
-        System.out.println(CYAN + "  ║  " + RESET + "Deposit Count:   " + String.format("%5d transactions", depositCount) + CYAN + "        ║" + RESET);
-        System.out.println(CYAN + "  ║                                                       ║" + RESET);
-        System.out.println(CYAN + "  ║  " + RESET + RED + "Total Payments:  " + String.format("$%,15.2f", totalPayments) + CYAN + "            ║" + RESET);
-        System.out.println(CYAN + "  ║  " + RESET + "Payment Count:   " + String.format("%5d transactions", paymentCount) + CYAN + "        ║" + RESET);
-        System.out.println(CYAN + "  ║                                                       ║" + RESET);
-        System.out.println(CYAN + "  ║  " + RESET + "═══════════════════════════════════════════════" + CYAN + "    ║" + RESET);
-        System.out.println(CYAN + "  ║  " + RESET + balanceColor + BOLD + "Current Balance: " +
-                String.format("$%,15.2f", balance) + RESET + CYAN + "            ║" + RESET);
-        System.out.println(CYAN + "  ║                                                       ║" + RESET);
+        System.out.println(CYAN + "  ║" + RESET + "                   STATISTICS                          " + CYAN + "║" + RESET);
         System.out.println(CYAN + "  ╚═══════════════════════════════════════════════════════╝" + RESET);
+        System.out.println("  " + GREEN + "  Total Deposits:  " + String.format("$%,15.2f", totalDeposits) + RESET);
+        System.out.println("  " + "  Deposit Count:   " + String.format("%5d transactions", depositCount));
+        System.out.println();
+        System.out.println("  " + RED + "  Total Payments:  " + String.format("$%,15.2f", totalPayments) + RESET);
+        System.out.println("  " + "  Payment Count:   " + String.format("%5d transactions", paymentCount));
+        System.out.println();
+        System.out.println("  " + "  ═══════════════════════════════════════════════");
+        System.out.println("  " + balanceColor + BOLD + "  Current Balance: " + String.format("$%,15.2f", balance) + RESET);
+        System.out.println();
+        System.out.println(CYAN + "  ═════════════════════════════════════════════════════════" + RESET);
     }
 
     // shows a success message
