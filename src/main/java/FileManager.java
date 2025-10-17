@@ -10,7 +10,7 @@ import java.util.List;
  */
 public class FileManager {
     private static final String FILE_NAME = "transactions.csv";
-    private static final String BACKUP_FOLDER = "backups";
+    private static final String BACKUP_FOLDER = "backup";
 
     // this returns them as a list of Transaction objects
     public static List<Transaction> readTransactions() {
